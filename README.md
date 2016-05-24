@@ -4,11 +4,11 @@ Vim runtime files for the programming language [potigol](http://potigol.github.i
 
 ## What's potigol?
 
-A programming language based of Portuguese keywords.
+A programming language based on Portuguese keywords.
 
 ## Why?
 
-It's a shame that most programming languages are based off English keywords
+It's a shame that most programming languages are based on English keywords
 (i.e. `if`, `else`, `function`, etc.). I found this language and wanted to
 experiment with it a bit.
 
