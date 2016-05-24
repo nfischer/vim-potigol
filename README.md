@@ -18,4 +18,18 @@ me get my code looking the way I want quickly.
 
 ## Shortcuts for non-English words
 
-(documentation coming soon)
+| Type this... | To get this... |
+|--------------|----------------|
+| faca | faça |
+| entao | então |
+| ate | até |
+| senao | senão |
+| senaose | senãose |
+| aleatorio | aleatório |
+| posicao | posição |
+| contem | contém |
+| maiusculo | maiúsculo |
+| minusculo | minúsculo |
+| cabeca | cabeça |
+| ultimo | último |
+| imutavel | imutável |
