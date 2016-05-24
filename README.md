@@ -16,6 +16,19 @@ For me, it's difficult to type some of the Portuguese words, and I make lots of
 mistakes. This plugin provides helpful shortcuts and syntax highlighting to help
 me get my code looking the way I want quickly.
 
+## Installation
+
+### Using [Vundle](https://github.com/VundleVim/Vundle.vim) (recommended)
+
+Put the following lines in your `vimrc` file:
+
+```Vim
+Plugin 'nfischer/vim-potigol' " inside your Vundle section
+
+syntax on " after your Vundle section
+set background=dark " recommended for terminals with a dark background
+```
+
 ## Shortcuts for non-English words
 
 | Type this... | To get this... |
