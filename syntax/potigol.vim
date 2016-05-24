@@ -19,7 +19,7 @@ syntax keyword PotiKeyword escolha caso _
 
 " built-in functions
 syntax keyword PotiReservedWord escreva imprima aleatório
-syntax keyword PotiType Inteiro
+syntax keyword PotiType var Inteiro Lista
 
 syntax match PotiOperator '\v(\=|:\=)'
 syntax match PotiOperator '\v(\+|-|*|/|\^)'
@@ -39,6 +39,7 @@ highlight default link PotiString String
 highlight default link PotiEscapeSequence Special
 highlight default link PotiStringTag Special
 highlight default link PotiKeyword Keyword
+highlight default link PotiType Type
 highlight default link PotiOperator Operator
 highlight default link PotiArrow Special
 highlight default link PotiReservedWord Function
