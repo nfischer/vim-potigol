@@ -31,6 +31,14 @@ set background=dark " recommended for terminals with a dark background
 
 ## Shortcuts for non-English words
 
+### Don't want these shortcuts?
+
+Put this in your `vimrc` to disable them:
+
+```viml
+let g:potigol_abbreviations = 0
+```
+
 | Type this... | To get this... |
 |--------------|----------------|
 | faca | faça |
