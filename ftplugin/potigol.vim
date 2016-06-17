@@ -1,3 +1,4 @@
+scriptencoding utf-8
 " Because unicode characters are hard...
 
 if !exists('g:potigol_abbreviations')
