@@ -18,12 +18,12 @@ me get my code looking the way I want quickly.
 
 ## Installation
 
-### Using [Vundle](https://github.com/VundleVim/Vundle.vim) (recommended)
+### Using [vim-plug](https://github.com/junegunn/vim-plug) (recommended)
 
 Put the following lines in your `vimrc` file:
 
 ```Vim
-Plugin 'nfischer/vim-potigol' " inside your Vundle section
+Plug 'nfischer/vim-potigol' " inside your vim-plug section
 
 syntax on " after your Vundle section
 set background=dark " recommended for terminals with a dark background
