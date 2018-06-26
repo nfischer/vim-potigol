@@ -25,7 +25,7 @@ Put the following lines in your `vimrc` file:
 ```Vim
 Plug 'nfischer/vim-potigol' " inside your vim-plug section
 
-syntax on " after your Vundle section
+syntax on " after your vim-plug section
 set background=dark " recommended for terminals with a dark background
 ```
 
