@@ -13,20 +13,28 @@ syntax keyword PotiKeyword senãose senão
 syntax keyword PotiKeyword enquanto faça
 
 " for/for-in
-syntax keyword PotiKeyword para de até
+syntax keyword PotiKeyword para de até em passo gere
 
 " switch/case/wildcard
 syntax keyword PotiKeyword escolha caso _
 
+" class
+syntax keyword PotiKeyword tipo abstrato
+
+" return / import
+syntax keyword PotiKeyword retorne use
+
 " built-in functions
-syntax keyword PotiReservedWord escreva imprima aleatório
-syntax keyword PotiType var Inteiro Lista
+syntax keyword PotiReservedWord escreva imprima aleatório isto
+syntax keyword PotiType var Inteiro Real Texto Lista
 
 syntax match PotiOperator '\v(\=|:\=)'
 syntax match PotiOperator '\v(\+|-|*|/|\^)'
 syntax match PotiOperator '\v(\<|\>)'
 syntax match PotiOperator '\v(\(|\)|\[|\]|\,|:|::)'
 syntax match PotiArrow '\v(\=\>)'
+syntax match PotiOperator '\v(div|mod)'
+syntax match PotiOperator '\v(e|ou|nao|não)'
 
 syntax region PotiComment start='\v#' end='\v$' contains=@Spell
 
