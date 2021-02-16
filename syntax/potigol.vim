@@ -27,14 +27,14 @@ syntax keyword PotiKeyword retorne use
 " built-in functions
 syntax keyword PotiReservedWord escreva imprima aleatório isto
 syntax keyword PotiType var Inteiro Real Texto Lista
+syntax keyword PotiReservedWord div mod
+syntax keyword PotiReservedWord e ou nao não
 
 syntax match PotiOperator '\v(\=|:\=)'
 syntax match PotiOperator '\v(\+|-|*|/|\^)'
 syntax match PotiOperator '\v(\<|\>)'
 syntax match PotiOperator '\v(\(|\)|\[|\]|\,|:|::)'
 syntax match PotiArrow '\v(\=\>)'
-syntax match PotiOperator '\v(div|mod)'
-syntax match PotiOperator '\v(e|ou|nao|não)'
 
 syntax region PotiComment start='\v#' end='\v$' contains=@Spell
 
