@@ -21,14 +21,15 @@ syntax keyword PotiKeyword escolha caso _
 " class
 syntax keyword PotiKeyword tipo abstrato
 
-" return / import
-syntax keyword PotiKeyword retorne use
+" import
+syntax keyword PotiKeyword use
 
 " built-in functions
-syntax keyword PotiReservedWord escreva imprima aleatório isto
+syntax keyword PotiReservedWord escreva imprima aleatório isto retorne
 syntax keyword PotiType var Inteiro Real Texto Lista
+syntax keyword PotiReservedWord verdadeiro falso
 syntax keyword PotiReservedWord div mod
-syntax keyword PotiReservedWord e ou nao não
+syntax keyword PotiReservedWord e ou não
 
 syntax match PotiOperator '\v(\=|:\=)'
 syntax match PotiOperator '\v(\+|-|*|/|\^)'
