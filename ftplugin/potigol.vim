@@ -24,6 +24,9 @@ if g:potigol_abbreviations == 1
   iabbrev <buffer> cabeca       cabeça
   iabbrev <buffer> ultimo       último
   iabbrev <buffer> imutavel     imutável
+  iabbrev <buffer> setimo       sétimo
+  iabbrev <buffer> decimo       décimo
+  iabbrev <buffer> nao          não
 endif
 
 setlocal commentstring=#\ %s
