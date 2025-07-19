@@ -1,0 +1,33 @@
+*vim-potigol.txt*	Vim runtime files for the Potigol language
+Nate Fischer <ntfschr@gmail.com>                                 *vim-potigol*
+
+==============================================================================
+CONTENTS                                                *vim-potigol-contents*
+  1. Configuration........................................|vim-potigol-config|
+
+==============================================================================
+CONFIGURATION                                             *vim-potigol-config*
+
+                                                     *g:potigol_abbreviations*
+Set this to 0 in order to disable mappings
+This is enabled by default (1) but you can set it to 0 to disable. By default,
+this plugin automatically applies some automatic text changes to help you type
+accented characters:
+
+	Type this		To get this ~
+	-----------------------------------
+	faca			faça
+	entao			então
+	ate			até
+	senao			senão
+	senaose			senãose
+	aleatorio		aleatório
+	posicao			posição
+	contem			contém
+	maiusculo		maiúsculo
+	minusculo		minúsculo
+	cabeca			cabeça
+	ultimo			último
+	imutavel		imutável
+
+vim:tw=78:ts=8:ft=help:norl:

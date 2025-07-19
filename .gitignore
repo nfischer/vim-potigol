@@ -1,0 +1,3 @@
+# This isn't committed in this project, but vim will generate the 'tags' file
+# when the plugin is installed by your plugin manager.
+/doc/tags
